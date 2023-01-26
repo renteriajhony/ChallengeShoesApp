@@ -15,6 +15,4 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-
-
-![Aquí vista del proyecto shoes app](https://github.com/renteriajhony/ChallengeShoesApp/blob/main/assets/imgs/3g.gif)
+<img src="https://github.com/renteriajhony/ChallengeShoesApp/blob/main/assets/imgs/3g.gif" width="280" height="600" />
