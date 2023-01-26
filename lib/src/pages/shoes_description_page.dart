@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shoes_app/src/helpers/helpers.dart';
 import 'package:shoes_app/src/models/shoes_model.dart';
@@ -68,9 +69,9 @@ class _ButtonLikeCardSettings extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          const _ShadedButton(Icon(Icons.heart_broken, color: Colors.red,size: 25,)),
-          _ShadedButton(Icon(Icons.add_shopping_cart, color: Colors.grey.withOpacity(0.4),size: 25,)),
-          _ShadedButton(Icon(Icons.settings, color: Colors.grey.withOpacity(0.4),size: 25,)),
+          const _ShadedButton(Icon(FontAwesomeIcons.solidHeart, color: Colors.red,size: 25,)),
+          _ShadedButton(Icon(FontAwesomeIcons.cartShopping, color: Colors.grey.withOpacity(0.4),size: 25,)),
+          _ShadedButton(Icon(FontAwesomeIcons.gear, color: Colors.grey.withOpacity(0.4),size: 25,)),
         ],
       ),
     );
